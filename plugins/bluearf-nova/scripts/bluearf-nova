@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PLUGIN_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"
+PACKAGE_ROOT="$(cd -- "${PLUGIN_ROOT}/../.." && pwd)"
+SDK_ROOT="${PACKAGE_ROOT}/python"
+
+if [[ -d "${SDK_ROOT}/bluearf_nova" ]]; then
+  export PYTHONPATH="${SDK_ROOT}${PYTHONPATH:+:${PYTHONPATH}}"
+elif ! python3 -c 'import bluearf_nova' >/dev/null 2>&1; then
+  printf 'Bluearf Nova SDK is not available.\n' >&2
+  printf 'Install with: python3 -m pip install bluearf-nova\n' >&2
+  exit 2
+fi
+
+if [[ $# -eq 0 ]]; then
+  set -- --help
+fi
+
+exec python3 -m bluearf_nova.cli "$@"
+

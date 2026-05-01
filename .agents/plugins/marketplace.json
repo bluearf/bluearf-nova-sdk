@@ -1,0 +1,21 @@
+{
+  "name": "bluearf",
+  "interface": {
+    "displayName": "Bluearf"
+  },
+  "plugins": [
+    {
+      "name": "bluearf-nova",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bluearf-nova"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+

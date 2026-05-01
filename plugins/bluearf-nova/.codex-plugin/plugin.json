@@ -1,0 +1,46 @@
+{
+  "name": "bluearf-nova",
+  "version": "0.1.0",
+  "description": "Use the Bluearf Nova Public API from Codex through the official Python SDK and CLI.",
+  "author": {
+    "name": "Bluearf",
+    "url": "https://bluearf.com/"
+  },
+  "homepage": "https://bluearf.com/",
+  "repository": "https://github.com/bluearf/bluearf-nova-sdk",
+  "license": "MIT",
+  "keywords": [
+    "bluearf",
+    "nova",
+    "api",
+    "cli",
+    "carbon",
+    "esg",
+    "sustainability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bluearf Nova",
+    "shortDescription": "Query Nova data, credits, usage, vehicles, models, and carbon calculations.",
+    "longDescription": "Bluearf Nova gives Codex a safe customer-facing workflow for the Bluearf Nova Public API. It uses the official Python SDK and CLI for credits, usage, companies, vehicle data, vehicle model references, carbon records, CarbonDataUniform, and passenger/commercial vehicle carbon calculations.",
+    "developerName": "Bluearf",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://bluearf.com/",
+    "privacyPolicyURL": "https://bluearf.com/",
+    "termsOfServiceURL": "https://bluearf.com/",
+    "defaultPrompt": [
+      "Show my Bluearf Nova API credits",
+      "List my Nova vehicles for a company",
+      "Calculate passenger vehicle emissions"
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/bluearf-nova.svg",
+    "logo": "./assets/bluearf-nova.svg",
+    "screenshots": []
+  }
+}

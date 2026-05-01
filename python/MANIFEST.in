@@ -1,0 +1,4 @@
+include README.md
+include pyproject.toml
+recursive-include bluearf_nova py.typed
+

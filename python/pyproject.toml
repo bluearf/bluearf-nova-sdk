@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bluearf-nova"
+version = "0.1.0"
+description = "Python SDK and CLI for the Bluearf Nova Public API"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Bluearf" }]
+dependencies = []
+license = "MIT"
+keywords = ["bluearf", "nova", "carbon", "esg", "sustainability", "api", "cli"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://bluearf.com"
+Documentation = "https://bluearf-nova-api-walbuhs3uq-uc.a.run.app/v1"
+Repository = "https://github.com/bluearf/bluearf-nova-sdk"
+
+[project.scripts]
+bluearf = "bluearf_nova.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
