@@ -1,5 +1,5 @@
-from .client import BluearfAPIError, BluearfNova
+from .client import BluearfAPIError, BluearfNova, BluearfNovaManagement
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 
-__all__ = ["BluearfNova", "BluearfAPIError", "__version__"]
+__all__ = ["BluearfNova", "BluearfNovaManagement", "BluearfAPIError", "__version__"]

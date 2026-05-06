@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bluearf-nova"
-version = "0.1.0"
+version = "0.1.2"
 description = "Python SDK and CLI for the Bluearf Nova Public API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -27,7 +27,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bluearf.com"
-Documentation = "https://bluearf-nova-api-walbuhs3uq-uc.a.run.app/v1"
+Documentation = "https://api.bluearf.com/v1"
 Repository = "https://github.com/bluearf/bluearf-nova-sdk"
 
 [project.scripts]

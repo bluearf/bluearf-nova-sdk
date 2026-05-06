@@ -4,5 +4,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 "${SCRIPT_DIR}/bluearf-nova" --help >/dev/null
+"${SCRIPT_DIR}/bluearf-nova" companies list --help >/dev/null
+"${SCRIPT_DIR}/bluearf-nova" nova-runs create --help >/dev/null
+"${SCRIPT_DIR}/bluearf-nova" calculations passenger-commercial-vehicles --help >/dev/null
 printf 'Bluearf Nova plugin wrapper is available.\n'
-

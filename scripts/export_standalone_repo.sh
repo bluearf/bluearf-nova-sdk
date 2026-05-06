@@ -11,6 +11,8 @@ cp -R \
   "${ROOT_DIR}/.agents" \
   "${ROOT_DIR}/.github" \
   "${ROOT_DIR}/.gitignore" \
+  "${ROOT_DIR}/docs" \
+  "${ROOT_DIR}/examples" \
   "${ROOT_DIR}/LICENSE" \
   "${ROOT_DIR}/README.md" \
   "${ROOT_DIR}/plugins" \

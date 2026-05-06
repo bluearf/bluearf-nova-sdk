@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "vehicleName": "Service-01",
+      "ownershipType": "Company Vehicle",
+      "vehicleType": "Automobile",
+      "fuelTypeName": "Diesel",
+      "fuelConsumption": 120,
+      "fuelUnit": "Liter",
+      "invoiceDate": "2024-03-15"
+    },
+    {
+      "vehicleName": "Field-01",
+      "ownershipType": "Long Term Rental",
+      "vehicleType": "Pickup Truck",
+      "fuelTypeName": "Gasoline",
+      "fuelConsumption": 85,
+      "fuelUnit": "Liter",
+      "invoiceDate": "2024-04-10"
+    }
+  ]
+}

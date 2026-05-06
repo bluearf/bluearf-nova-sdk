@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "vehicleName": "Servis-01",
+      "ownershipType": "Şirket Aracı",
+      "vehicleType": "Otomobil",
+      "fuelTypeName": "Dizel",
+      "fuelConsumption": 120,
+      "fuelUnit": "Litre",
+      "invoiceDate": "2024-03-15"
+    },
+    {
+      "vehicleName": "Saha-01",
+      "ownershipType": "Uzun Süreli Kiralık",
+      "vehicleType": "Kamyonet",
+      "fuelTypeName": "Benzin",
+      "fuelConsumption": 85,
+      "fuelUnit": "Litre",
+      "invoiceDate": "2024-04-10"
+    }
+  ]
+}
