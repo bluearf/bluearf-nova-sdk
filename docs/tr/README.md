@@ -77,9 +77,6 @@ Uniform karbon kayıtları:
 bluearf carbon-uniform list --company-id COMPANY_ID --coid COID --year 2024
 ```
 
-API ham Firestore dokümanı döndürmez; dış kullanıcıya güvenli ve sınırlandırılmış
-alanlar döner. Erişim `readAccessIds` ve API anahtar scope'u ile sınırlıdır.
-
 ## 4. Kayıt Yapmadan Binek ve Ticari Araç Hesaplama
 
 `calculations passenger-commercial-vehicles` kayıt oluşturmaz. Sadece emisyon

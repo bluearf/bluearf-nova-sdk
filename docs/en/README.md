@@ -77,9 +77,6 @@ CarbonDataUniform records:
 bluearf carbon-uniform list --company-id COMPANY_ID --coid COID --year 2024
 ```
 
-The API does not return raw Firestore documents. Responses are sanitized and
-limited by `readAccessIds` and API-key scopes.
-
 ## 4. Passenger and Commercial Vehicle Calculation Without Saving
 
 `calculations passenger-commercial-vehicles` is a dry run. It returns an
